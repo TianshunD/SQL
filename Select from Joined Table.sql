@@ -88,24 +88,24 @@ insert into TVProduct values ('Relax','1000','Y','Grand');
 
 select * from TVProduct;
 
-insert into Contains values ('HBO USA','HBO1');
-insert into Contains values ('HBO 2','HBO1');
-insert into Contains values ('HBO 3','HBO1');
-insert into Contains values ('COMEDY','Movies');
-insert into Contains values ('SKY MOVIE DRAMA','Movies');
-insert into Contains values ('Happy Movie','ForFamily');
-insert into Contains values ('Movie Night','ForFamily');
-insert into Contains values ('Football','Sports');
-insert into Contains values ('Basketball','Sports');
-insert into Contains values ('Identity V','Games');
-insert into Contains values ('Glory of Kings','Games');
-insert into Contains values ('Movies','Recreation');
-insert into Contains values ('Movies','Recreation');
-insert into Contains values ('Games','Recreation');
-insert into Contains values ('HBO1','Union');
-insert into Contains values ('ForFamily','Union');
-insert into Contains values ('Sports','Relax');
-insert into Contains values ('Games','Relax');
+insert into Contains values ('HBO USA','HBO1'); 
+insert into Contains values ('HBO 2','HBO1'); 
+insert into Contains values ('HBO 3','HBO1'); 
+insert into Contains values ('COMEDY','Movies'); 
+insert into Contains values ('SKY MOVIE DRAMA','Movies'); 
+insert into Contains values ('Happy Movie','ForFamily'); 
+insert into Contains values ('Movie Night','ForFamily'); 
+insert into Contains values ('Football','Sports'); 
+insert into Contains values ('Basketball','Sports'); 
+insert into Contains values ('Identity V','Games'); 
+insert into Contains values ('Glory of Kings','Games'); 
+insert into Contains values ('Movies','Recreation'); 
+insert into Contains values ('Sports','Recreation'); 
+insert into Contains values ('Games','Recreation'); 
+insert into Contains values ('HBO1','Union'); 
+insert into Contains values ('ForFamily','Union'); 
+insert into Contains values ('Sports','Relax'); 
+insert into Contains values ('Games','Relax'); 
 
 select * from Contains;
 
