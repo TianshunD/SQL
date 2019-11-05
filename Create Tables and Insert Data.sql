@@ -46,8 +46,7 @@ cabinNumOfSeats int,
 fuelCapacity int not null
 );
 
-DD-MON-RR
-YYYY-MM-DD
+--YYYY-MM-DD
 --create table AirPlane
 create table AirPlane
 (
@@ -141,10 +140,10 @@ insert into FlightStatus values ('D','Delay');
 insert into FlightStatus values ('O','On Time');
 
 --insert data into table FlightSchedule
-insert into FlightSchedule values ('3310','2014-02-10','O','AP629342','NULL','NULL');
-insert into FlightSchedule values ('3310','2014-02-11','O','AP629342','NULL','NULL');
-insert into FlightSchedule values ('3312','2014-02-10','O','AP872139','NULL','NULL');
-insert into FlightSchedule values ('3426','2014-02-12','O','AP239471','NULL','NULL');
+insert into FlightSchedule (flightNumber,flightDate,statusID,airplaneID) values ('3310','2014-02-10','O','AP629342');
+insert into FlightSchedule (flightNumber,flightDate,statusID,airplaneID) values ('3310','2014-02-11','O','AP629342');
+insert into FlightSchedule (flightNumber,flightDate,statusID,airplaneID) values ('3312','2014-02-10','O','AP872139');
+insert into FlightSchedule (flightNumber,flightDate,statusID,airplaneID) values ('3426','2014-02-12','O','AP239471');
 insert into FlightSchedule values ('5063','2014-02-13','D','AP309814','15:40','20:05');
 
 --Part 1 (3) Select Data
